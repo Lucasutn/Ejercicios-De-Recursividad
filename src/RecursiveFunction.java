@@ -403,5 +403,50 @@ public class RecursiveFunction {
 
     }
 
+    /**
+     * Ejercicio 10:
+     * Escribir un algoritmo recursivo que permita obtener la suma de los dígitos de un número entero N.
+     * Sabiendo que:
+     * - El módulo de 10 de cualquier número entero permite obtener el dígito que se encuentra más a la
+     * derecha. Ej 126 % 10 => 6.
+     * - Dividiendo cualquier número entero por 10 permite eliminar el dígito que se encuentra más a la
+     * derecha. Ej 126 / 10 => 12.
+     * Ejemplo:
+     * sumDigits(126) → 9
+     * sumDigits(49) → 13
+     * sumDigits(12) → 3*/
+
+    public static void sumDigits(int n){
+
+        System.out.println("sumDigits("+n+")" +"→ " + suma(n,0,0));
+    }
+
+    private static int suma(int n,int acum,int num){
+
+        if (n < 10) {
+
+            REVERSE_NUMBER = num + n;
+//            System.out.println(num + n);
+
+
+//            return num + n;
+
+
+        } else {
+
+            acum = n % 10;
+            num = num + acum;
+//            num *= 10;
+            suma(n / 10, acum, num);
+
+
+        }
+
+
+        return REVERSE_NUMBER;
+
+
+    }
+
 
 }

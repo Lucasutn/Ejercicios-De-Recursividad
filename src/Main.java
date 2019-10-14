@@ -34,6 +34,8 @@ public class Main {
 
 //        System.out.println(RecursiveFunction.reverseNumber(84345));
 
+//        RecursiveFunction.sumDigits(123455);
+
     }
 
 
