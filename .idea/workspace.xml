@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="315dfffc-6ed2-4810-bf43-9b651eb8e07d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Metodos.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RecursiveFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursiveFunction.java" afterDir="false" />
     </list>
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+            <state relative-caret-position="231">
+              <caret line="378" column="65" lean-forward="true" selection-start-line="378" selection-start-column="65" selection-end-line="378" selection-end-column="65" />
               <folding>
                 <element signature="docComment;method#UnoALDiez#0;class#RecursiveFunction#0" />
                 <element signature="method#UnoALDiez#0;class#RecursiveFunction#0" />
@@ -41,6 +39,18 @@
                 <element signature="e#3502#3692#1" />
                 <element signature="docComment;method#bunnyEars#0;class#RecursiveFunction#0" />
                 <element signature="method#bunnyEars#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#bunnyEars#1;class#RecursiveFunction#0" />
+                <element signature="method#bunnyEarsTres#0;class#RecursiveFunction#0" />
+                <element signature="docComment;field#fa#0;class#RecursiveFunction#0" />
+                <element signature="method#factorialNumber#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#factorialFuntion#0;class#RecursiveFunction#0" />
+                <element signature="method#factorial#0;class#RecursiveFunction#0" />
+                <element signature="docComment;field#fa#0;class#RecursiveFunction#0" />
+                <element signature="method#factorialNumberRecursive#0;class#RecursiveFunction#0" />
+                <element signature="docComment;field#di#0;class#RecursiveFunction#0" />
+                <element signature="method#divisionEnteros#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#division#0;class#RecursiveFunction#0" />
+                <element signature="method#division#0;class#RecursiveFunction#0" />
               </folding>
             </state>
           </provider>
@@ -49,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="503">
+              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -73,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/Ej1NumerosDel1al10.java" />
         <option value="$PROJECT_DIR$/src/Programa.java" />
         <option value="$PROJECT_DIR$/src/Metodos.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/RecursiveFunction.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -114,9 +124,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571036988407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571087656565" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571012071876</updated>
       <workItem from="1571012074876" duration="20915000" />
-      <workItem from="1571068036180" duration="8388000" />
+      <workItem from="1571068036180" duration="19163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29303000" />
+    <option name="totallyTimeSpent" value="40078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -219,8 +230,8 @@
     <entry file="file://$PROJECT_DIR$/src/Programa.java" />
     <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+        <state relative-caret-position="231">
+          <caret line="378" column="65" lean-forward="true" selection-start-line="378" selection-start-column="65" selection-end-line="378" selection-end-column="65" />
           <folding>
             <element signature="docComment;method#UnoALDiez#0;class#RecursiveFunction#0" />
             <element signature="method#UnoALDiez#0;class#RecursiveFunction#0" />
@@ -237,14 +248,26 @@
             <element signature="e#3502#3692#1" />
             <element signature="docComment;method#bunnyEars#0;class#RecursiveFunction#0" />
             <element signature="method#bunnyEars#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#bunnyEars#1;class#RecursiveFunction#0" />
+            <element signature="method#bunnyEarsTres#0;class#RecursiveFunction#0" />
+            <element signature="docComment;field#fa#0;class#RecursiveFunction#0" />
+            <element signature="method#factorialNumber#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#factorialFuntion#0;class#RecursiveFunction#0" />
+            <element signature="method#factorial#0;class#RecursiveFunction#0" />
+            <element signature="docComment;field#fa#0;class#RecursiveFunction#0" />
+            <element signature="method#factorialNumberRecursive#0;class#RecursiveFunction#0" />
+            <element signature="docComment;field#di#0;class#RecursiveFunction#0" />
+            <element signature="method#divisionEnteros#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#division#0;class#RecursiveFunction#0" />
+            <element signature="method#division#0;class#RecursiveFunction#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="503">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
     </entry>

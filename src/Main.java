@@ -26,6 +26,14 @@ public class Main {
 
 //        RecursiveFunction.bunnyEarsTres(10,0,0);
 
+//        System.out.println(RecursiveFunction.factorialNumber(5));
+
+//        RecursiveFunction.factorialNumberRecursive(5);
+
+//        RecursiveFunction.divisionEnteros(50,2);
+
+//        System.out.println(RecursiveFunction.reverseNumber(84345));
+
     }
 
 

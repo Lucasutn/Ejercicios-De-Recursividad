@@ -6,7 +6,9 @@
 public class RecursiveFunction {
 
 
-    private static final int constNumber = 10;
+    private static final int CONST_NUMBER_ONE = 1;
+    private static final int CONST_NUMBER_ZERO = 0;
+    private static int REVERSE_NUMBER;
 
 
     private RecursiveFunction() {
@@ -214,8 +216,7 @@ public class RecursiveFunction {
      */
 
     //Se puede hacer una mayor abstraccion, tratar encapsular aun mas.
-
-    public static int bunnyEarsTres(int n, int a,int b) {
+    public static int bunnyEarsTres(int n, int a, int b) {
 
 
         if (n == 0) {
@@ -227,22 +228,177 @@ public class RecursiveFunction {
         } else if (n % 2 != 0) {
 
 
-
             System.out.println("bunnyEars(" + b + ")" + "→ " + a);
 
-            bunnyEarsTres(n-1, a + 3,b+1);
+            bunnyEarsTres(n - 1, a + 3, b + 1);
 
         } else {
 
 
-
             System.out.println("bunnyEars(" + b + ")" + "→ " + a);
 
-            bunnyEarsTres(n-1, a + 2,b+1);
+            bunnyEarsTres(n - 1, a + 2, b + 1);
         }
 
 
         return 0;
+
+
+    }
+
+
+    /**
+     * <p>
+     * Ejercicio 7:
+     * Dado un número entero N, obtener el factorial del mismo siguiendo el algoritmo n * (n-1) * (n-2) ... 1.
+     * Escribir una función recursiva (sin bucles o multiplicación).
+     * factorial(1) → 1
+     * factorial(2) → 2
+     * factorial(3) → 6
+     * </p>
+     *
+     * @param n recibe un numero entero
+     * @return retorna el factorial de n
+     * <p></p>see {@link #factorialFuntion(int, int)}.
+     */
+
+    public static int factorialNumber(int n) {
+
+        return factorialFuntion(n, CONST_NUMBER_ONE);
+    }
+
+    /**
+     * @param n recibe el numero a calcular el factorial
+     * @param b acumulador siempre debe inicializar en 1
+     * @return b es el resultado acumulado
+     */
+    private static int factorialFuntion(int n, int b) {
+
+        if (n == 0) {
+            return b;
+        } else {
+
+            b = factorialFuntion(n - 1, b * n);
+
+            return b;
+        }
+
+
+    }
+
+    /**
+     * <h3>Factorial Resultado Recursivo</h3>
+     *
+     * @param n recibe la cantidad de terminos de 0 a n por Ej.:
+     *          <p>
+     *          factorial(0)→ 1
+     *          <p>
+     *          factorial(1)→ 1
+     *          <p>
+     *          factorial(2)→ 2
+     *          <p>
+     *          factorial(3)→ 6
+     *          <p>
+     *          factorial(4)→ 24
+     *          <p>
+     *          factorial(5)→ 120
+     */
+
+    public static int factorialNumberRecursive(int n) {
+
+        if (n == 0) {
+
+            System.out.println("factorial(" + n + ")" + "→ " + factorialNumber(n));
+
+            return 0;
+        }
+
+        factorialNumberRecursive(n - 1);
+
+        System.out.println("factorial(" + n + ")" + "→ " + factorialNumber(n));
+
+
+        return 0;
+
+
+    }
+
+    /**
+     * <p>
+     * Ejercicio 8:
+     * Escribir una función que realice la división de 2 número enteros mediante sucesivas restas utilizando
+     * recursividad.
+     *
+     * @param numerator
+     * @param denominator <p>muestra por pantalla el resultado de la division
+     *                    <p>
+     *                    see {@link #division(int, int, int)}
+     */
+
+    public static void divisionEnteros(int numerator, int denominator) {
+
+        System.out.println(division(numerator, denominator, CONST_NUMBER_ZERO));
+    }
+
+    /**
+     * Metodo privado: realiza division entre dos numeros enteros y retorna su resultado
+     *
+     * @param acum contador donde se van sumando la cantidad de veces que se puede restar el demonominador al acumulador
+     * @return acum
+     */
+    private static int division(int numerator, int denominator, int acum) {
+
+        if (numerator == 0) {
+
+            return acum;
+        }
+
+        acum = division(numerator - denominator, denominator, acum + 1);
+
+        return acum;
+
+    }
+
+    /**
+     * Ejercicio 9:
+     * Escribir un algoritmo recursivo que permita invertir un número entero: Ej: 123 => 321.
+     * Sabiendo que:
+     * - El módulo de 10 de cualquier número entero permite obtener el dígito que se encuentra más a la
+     * derecha. Ej 126 % 10 => 6.
+     * - Dividiendo cualquier número entero por 10 permite eliminar el dígito que se encuentra más a la
+     * derecha. Ej 126 / 10 => 12.
+     */
+
+    public static int reverseNumber(int n ){
+
+        return reverseFuntion(n,0,0);
+
+    }
+
+    private static int reverseFuntion(int n, int acum, int num) {
+
+
+        if (n < 10) {
+
+            REVERSE_NUMBER = num + n;
+//            System.out.println(num + n);
+
+
+//            return num + n;
+
+
+        } else {
+
+            acum = n % 10;
+            num = num + acum;
+            num *= 10;
+            reverseFuntion(n / 10, acum, num);
+
+
+        }
+
+
+        return REVERSE_NUMBER;
 
 
     }
