@@ -163,4 +163,89 @@ public class RecursiveFunction {
 
 
     }
+
+    /**
+     * Ejercicio 5:
+     * Tenemos un número de conejitos y cada conejito tiene dos grandes orejas. Se quiere calcular el número
+     * total de orejas en todos los conejos recursivamente (sin bucles o multiplicación). Escriba una función
+     * recursiva para obtener dicho total. Ej:
+     * bunnyEars(0) → 0
+     * bunnyEars(1) → 2
+     * bunnyEars(2) → 4
+     *
+     * @param n recibe cantidad de conejos
+     */
+
+    public static int bunnyEars(int n) {
+
+
+        if (n == 0) {
+            System.out.println("bunnyEars(" + n + ")" + "→ " + 0);
+        } else {
+
+            bunnyEars(n - 1);
+
+            int a = n;
+            int b = a;
+            a += b;
+
+            System.out.println("bunnyEars(" + n + ")" + "→ " + a);
+        }
+
+
+        return 0;
+
+    }
+
+
+    /**
+     * Ejercicio 6:
+     * Tenemos conejitos de pie en una línea, numerados 1, 2, ... Los conejitos en posiciones impares (1, 3, ..)
+     * tienen las 2 orejas normales. Los conejos en las posiciones pares (2, 4, ..) diremos que tienen 3 orejas,
+     * porque cada uno tiene un pie levantado. Escriba una función que devuelva recursivamente el número de
+     * "orejas" en la línea de conejos 1, 2, ... n (sin bucles o multiplicación).
+     * bunnyEars2(0) → 0
+     * bunnyEars2(1) → 2
+     * bunnyEars2(2) → 5
+     *
+     * @param n recibe cantidad de conejos
+     * @param a tiene que ser 0 por default se utiliza para contar las catidad de orejas
+     * @param b tiene que ser 0 por default  se utiliza para representar la cantidad de conejos.
+     */
+
+    //Se puede hacer una mayor abstraccion, tratar encapsular aun mas.
+
+    public static int bunnyEarsTres(int n, int a,int b) {
+
+
+        if (n == 0) {
+
+
+            System.out.println("bunnyEars(" + b + ")" + "→ " + a);
+            return 0;
+
+        } else if (n % 2 != 0) {
+
+
+
+            System.out.println("bunnyEars(" + b + ")" + "→ " + a);
+
+            bunnyEarsTres(n-1, a + 3,b+1);
+
+        } else {
+
+
+
+            System.out.println("bunnyEars(" + b + ")" + "→ " + a);
+
+            bunnyEarsTres(n-1, a + 2,b+1);
+        }
+
+
+        return 0;
+
+
+    }
+
+
 }

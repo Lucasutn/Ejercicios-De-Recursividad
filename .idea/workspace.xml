@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/RecursiveFunction.java" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="315dfffc-6ed2-4810-bf43-9b651eb8e07d" name="Default Changelist" comment="" />
+    <list default="true" id="315dfffc-6ed2-4810-bf43-9b651eb8e07d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios De Recursividad/Metodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecursiveFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursiveFunction.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,38 +19,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="350">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+              <folding>
+                <element signature="docComment;method#UnoALDiez#0;class#RecursiveFunction#0" />
+                <element signature="method#UnoALDiez#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#TablaDelNueve#0;class#RecursiveFunction#0" />
+                <element signature="method#TablaDelNueve#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#numeroMayor#0;class#RecursiveFunction#0" />
+                <element signature="method#numeroMayor#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#fibbonacci#0;class#RecursiveFunction#0" />
+                <element signature="method#fibbonacci#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#recursiveFibonacci#0;class#RecursiveFunction#0" />
+                <element signature="method#recursiveFibonacci#0;class#RecursiveFunction#0" />
+                <element signature="docComment;method#recursiveFibonacciNum#0;class#RecursiveFunction#0" />
+                <element signature="method#recursiveFibonacciNum#0;class#RecursiveFunction#0" />
+                <element signature="e#3502#3692#1" />
+                <element signature="docComment;method#bunnyEars#0;class#RecursiveFunction#0" />
+                <element signature="method#bunnyEars#0;class#RecursiveFunction#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-              <folding>
-                <element signature="docComment;class#Metodos#0" />
-                <element signature="docComment;method#UnoALDiez#0;class#Metodos#0" />
-                <element signature="method#UnoALDiez#0;class#Metodos#0" />
-                <element signature="e#117#163#1" />
-                <element signature="docComment;method#TablaDelNueve#0;class#Metodos#0" />
-                <element signature="method#Tabla#0;class#Metodos#0" />
-                <element signature="docComment;method#numeroMayor#0;class#Metodos#0" />
-                <element signature="method#numeroMayor#0;class#Metodos#0" />
-                <element signature="docComment;method#fibbonacci#0;class#Metodos#0" />
-                <element signature="method#fibbonacci#0;class#Metodos#0" />
-                <element signature="docComment;method#recursiveFibonacci#0;class#Metodos#0" />
-                <element signature="method#recursiveFibonacci#0;class#Metodos#0" />
-                <element signature="docComment;method#recursiveFibonacciNum#0;class#Metodos#0" />
-                <element signature="method#recursiveFibonacciNum#0;class#Metodos#0" />
-                <element signature="e#3431#3602#1" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -54,6 +63,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,12 +84,12 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -95,13 +107,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571031408609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571036988407" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -149,46 +162,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571012071876</updated>
-      <workItem from="1571012074876" duration="17987000" />
+      <workItem from="1571012074876" duration="20915000" />
+      <workItem from="1571068036180" duration="8388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17987000" />
+    <option name="totallyTimeSpent" value="29303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,48 +216,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programa.java" />
     <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="350">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;method#UnoALDiez#0;class#RecursiveFunction#0" />
+            <element signature="method#UnoALDiez#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#TablaDelNueve#0;class#RecursiveFunction#0" />
+            <element signature="method#TablaDelNueve#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#numeroMayor#0;class#RecursiveFunction#0" />
+            <element signature="method#numeroMayor#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#fibbonacci#0;class#RecursiveFunction#0" />
+            <element signature="method#fibbonacci#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#recursiveFibonacci#0;class#RecursiveFunction#0" />
+            <element signature="method#recursiveFibonacci#0;class#RecursiveFunction#0" />
+            <element signature="docComment;method#recursiveFibonacciNum#0;class#RecursiveFunction#0" />
+            <element signature="method#recursiveFibonacciNum#0;class#RecursiveFunction#0" />
+            <element signature="e#3502#3692#1" />
+            <element signature="docComment;method#bunnyEars#0;class#RecursiveFunction#0" />
+            <element signature="method#bunnyEars#0;class#RecursiveFunction#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="docComment;class#Metodos#0" />
-            <element signature="docComment;method#UnoALDiez#0;class#Metodos#0" />
-            <element signature="method#UnoALDiez#0;class#Metodos#0" />
-            <element signature="e#117#163#1" />
-            <element signature="docComment;method#TablaDelNueve#0;class#Metodos#0" />
-            <element signature="method#Tabla#0;class#Metodos#0" />
-            <element signature="docComment;method#numeroMayor#0;class#Metodos#0" />
-            <element signature="method#numeroMayor#0;class#Metodos#0" />
-            <element signature="docComment;method#fibbonacci#0;class#Metodos#0" />
-            <element signature="method#fibbonacci#0;class#Metodos#0" />
-            <element signature="docComment;method#recursiveFibonacci#0;class#Metodos#0" />
-            <element signature="method#recursiveFibonacci#0;class#Metodos#0" />
-            <element signature="docComment;method#recursiveFibonacciNum#0;class#Metodos#0" />
-            <element signature="method#recursiveFibonacciNum#0;class#Metodos#0" />
-            <element signature="e#3431#3602#1" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>
