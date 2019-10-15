@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /**
  * Clase con todas las funciones Recursivas para Ejercios de Recursividad
  * Programacion II
@@ -9,6 +11,7 @@ public class RecursiveFunction {
     private static final int CONST_NUMBER_ONE = 1;
     private static final int CONST_NUMBER_ZERO = 0;
     private static int REVERSE_NUMBER;
+    private static int STATIC_NUMBER;
 
 
     private RecursiveFunction() {
@@ -369,9 +372,9 @@ public class RecursiveFunction {
      * derecha. Ej 126 / 10 => 12.
      */
 
-    public static int reverseNumber(int n ){
+    public static int reverseNumber(int n) {
 
-        return reverseFuntion(n,0,0);
+        return reverseFuntion(n, 0, 0);
 
     }
 
@@ -414,14 +417,15 @@ public class RecursiveFunction {
      * Ejemplo:
      * sumDigits(126) → 9
      * sumDigits(49) → 13
-     * sumDigits(12) → 3*/
+     * sumDigits(12) → 3
+     */
 
-    public static void sumDigits(int n){
+    public static void sumDigits(int n) {
 
-        System.out.println("sumDigits("+n+")" +"→ " + suma(n,0,0));
+        System.out.println("sumDigits(" + n + ")" + "→ " + suma(n, 0, 0));
     }
 
-    private static int suma(int n,int acum,int num){
+    private static int suma(int n, int acum, int num) {
 
         if (n < 10) {
 
@@ -447,6 +451,170 @@ public class RecursiveFunction {
 
 
     }
+
+    /**
+     * Ejercicio 11:
+     * Escribir un algoritmo recursivo que permita contar la ocurrencia del dígito 7 en cualquier número entero
+     * ingresado por teclado.
+     * Sabiendo que:
+     * - El módulo de 10 de cualquier número entero permite obtener el dígito que se encuentra más a la
+     * derecha. Ej 126 % 10 => 6.
+     * - Dividiendo cualquier número entero por 10 permite eliminar el dígito que se encuentra más a la
+     * derecha. Ej 126 / 10 => 12.
+     * Ejemplo:
+     * contar7Funtion(717) → 2
+     * contar7Funtion(7) → 1
+     * contar(123) → 0
+     */
+
+    public static void contar7(int n) {
+
+        System.out.println("contar7Funtion(" + n + ")" + "→ " + contar7Funtion(n, 0, 0));
+
+    }
+
+
+    private static int contar7Funtion(int n, int acum, int cont) {
+
+        if (n < 10) {
+
+            if (n == 7) {
+
+//                cont++;
+
+                STATIC_NUMBER = ++cont;
+
+//                System.out.println(cont);
+
+
+            }
+
+
+        } else {
+
+            acum = n % 10;
+
+            if (acum == 7) {
+                cont++;
+            }
+//            num *= 10;
+            contar7Funtion(n / 10, acum, cont);
+
+
+        }
+
+
+        return STATIC_NUMBER;
+
+    }
+
+    /**
+     * Ejercicio 12:
+     * Escriba un algoritmo recursivo que permita sumar todos los valores contenidos en un arreglo de números
+     * enteros. Solicitar al usuario que defina el tamaño del arreglo y luego cargar los valores de dicho arreglo.
+     */
+
+    public static int arraySuma(int[] array, int arrayLongitud, int total) {
+
+        if (arrayLongitud == 0) {
+            
+//            total += array[arrayLongitud];
+
+//            System.out.println(total);
+
+            STATIC_NUMBER= total += array[arrayLongitud];
+
+        }else {
+
+            total+=array[arrayLongitud] ;
+
+            arraySuma(array, arrayLongitud - 1, total);
+
+//            System.out.println(total);
+            
+        }
+
+        return STATIC_NUMBER;
+    }
+
+
+    /**
+     * Ejercicio 13:
+     * Escriba un algoritmo recursivo que permita saber si un número es positivo o negativo utilizando
+     * Recursividad Indirecta (implementando llamada entre 2 métodos entre sí).*/
+
+    public static void PositiveOrNegative(int n){
+
+        while (n==0){
+
+            n= Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero diferente de 0: "));
+        }
+
+        PositiveNumber(n);
+
+    }
+
+    private static void PositiveNumber(int n){
+
+        if(n>0){
+            System.out.println("Positivo");
+        }else {
+            NegativeNumber(n);
+        }
+
+    }
+
+    private static void NegativeNumber(int n){
+
+        if(n<0){
+            System.out.println("Negativo");
+        }else {
+            PositiveNumber(n);
+        }
+
+    }
+
+
+    /**
+     * Ejercicio 14:
+     * Escriba un algoritmo recursivo que permita saber si un número es impar utilizando Recursividad Indirecta
+     * (implementando llamada entre 2 métodos entre sí).*/
+
+
+//    public static String impar (int num){
+//        if (num == 0)
+//            return "Par";
+////            return false;
+//        else
+//            return par(num-1);
+//
+//    }
+//
+//    public static String par (int num) {
+//        if (num == 0)
+//            return "Impar";
+//
+////            return true;
+//        else
+//           return impar(num-1);
+//    }
+
+
+    public static boolean impar (int num){
+        if (num == 0)
+            return false;
+        else
+            return par(num-1);
+    }
+
+    private static boolean par (int num) {
+        if (num == 0)
+            return true;
+        else
+            return impar(num-1);
+    }
+
+
 
 
 }

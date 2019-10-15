@@ -1,11 +1,11 @@
+
+
 public class Main {
 
 
     public static void main(String[] args) {
 
         int [] arrayNumbers = {564,40,5,1,8,4,9,5};
-
-
 
 
 //        RecursiveFunction.UnoALDiez(10);
@@ -35,6 +35,17 @@ public class Main {
 //        System.out.println(RecursiveFunction.reverseNumber(84345));
 
 //        RecursiveFunction.sumDigits(123455);
+
+//        RecursiveFunction.contar7(555);
+
+//        UImain.sumarValorArreglo();
+
+//        RecursiveFunction.PositiveOrNegative(1);
+
+//        System.out.println(RecursiveFunction.impar(11));
+
+//        UImain.BuscarMayorArray();
+
 
     }
 
